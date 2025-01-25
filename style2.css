@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cedarville+Cursive&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fira+Code:wght@300..700&family=Luxurious+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+ background-color: rgb(0, 0, 35);
+    padding: 35px;
+   
+}
+
+.container {
+    border: 4px solid #fff;
+    padding: 80px;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    font-size: 4rem;
+    font-family: 'Luxurious Script';
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+font-size: 1.35rem;
+    transition: all 0.3s ease;
+    border: 2px solid #fff;
+    padding: 12px;
+}
+
+.navbar a:hover {
+    background-color: #fff;
+color: #000;
+
+}
+
+#drinks {
+    color: #fff;
+}
+
+#food {
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Luxurious Script';
+    font-size: 3.5rem;
+    margin-top: 40px;
+    font-weight: 100;
+}
+hr {
+    margin: 35px;
+    margin-bottom: 80px;
+}
+
+.food-image {
+    width: 150px;
+    height: 150px;
+overflow: hidden;
+margin-bottom: 35px;
+margin-left: 55px;
+
+border-radius: 50%;
+}
+
+.food-image img {
+    width: 100%;
+    
+}
+
+.food-info {
+    margin-left: 35px;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 25px;
+    line-height: 2;
+}
+
+.food1, .food2, .food3, .food4, .food5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drink1, .drink2, .drink3, .drink4, .drink5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.drink-image {
+    width: 150px;
+    height: 150px;
+overflow: hidden;
+margin-bottom: 35px;
+margin-left: 55px;
+
+border-radius: 50%;
+}
+
+.drink-image img {
+    width: 100%;
+    
+}
+
+.drink-info {
+    margin-left: 35px;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 25px;
+    line-height: 2;
+}
+
+@media screen and (max-width: 750px) {
+
+   
+    
+    .container {
+        padding: 40px;
+    }
+
+    .navbar a {
+        font-size: 1em;
+    }
+
+    .food-info {
+        padding: 0;
+        font-size: 0.9rem;
+        line-height: none;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .drink-info {
+        padding: 0;
+        font-size: 0.9rem;
+        line-height: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .food-image {
+        width: 70px;
+        height: 70px;
+        margin-left: 12px;
+    }
+
+    .drink-image {
+        width: 70px;
+        height: 70px;
+        margin-left: 12px;
+       
+    }
+    .food1, .food2, .food3, .food4, .food5 {
+        margin-bottom: 35px;
+    }
+
+    .drink1, .drink2, .drink3, .drink4, .drink5 {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        padding: 10px;
+    }
+
+    .menu {
+        font-size: 3.25rem;
+    }
+
+.navbar {
+    margin-left: 20px;
+}
+
+    .navbar a {
+        font-size: 0.9rem;
+        padding: 7px;
+       
+    }
+
+  
+    #drinks {
+        margin-top: 100px;
+    }
+
+    .food-image {
+        width: 90px;
+        height: 90px;
+        margin-left: 12px;
+    }
+
+    .drink-image {
+        width: 90px;
+        height: 90px;
+        margin-left: 12px;
+      
+    }
+    
+    .food-info {
+        padding: 0;
+        font-size: 0.65rem;
+        line-height: none;
+    }
+
+    .drink-info {
+        padding: 0;
+        font-size: 0.65rem;
+        line-height: none;
+    }
+
+    .food1, .food2, .food3, .food4, .food5 {
+        margin-bottom: 35px;
+    }
+
+    .drink1, .drink2, .drink3, .drink4, .drink5 {
+        margin-bottom: 35px;
+    }
+}

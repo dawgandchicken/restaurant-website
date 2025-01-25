@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cedarville+Cursive&family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cedarville+Cursive&family=Fira+Code:wght@300..700&family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cedarville+Cursive&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fira+Code:wght@300..700&family=Luxurious+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cedarville+Cursive&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fira+Code:wght@300..700&family=Luxurious+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.hero {
+    background: url(https://assets.metrobi.com/wp-content/uploads/2024/06/sous-chef.webp);
+    height: 800px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.logo {
+    font-size: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.logo::first-letter {
+    font-size: 100px;
+    font-weight: 600;
+}
+
+
+.navbar {
+    display: flex;
+    gap: 24px
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: all 0.4s ease;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    background-color: #fff;
+    color: rgb(39, 39, 39);
+}
+
+.para {
+
+font-style: italic;
+    color: #fff;
+    width: 100%;
+    height: 500px;
+    padding: 200px;
+    text-align: left;
+    
+}
+
+.para p {
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.le  {
+    font-weight: 100;
+    font-size: 3.75rem;
+    font-family: 'Luxurious Script';
+}
+
+.button {
+    padding: 12px;
+   
+   margin-top: 50px;
+}
+
+.button button{
+
+    background-color: transparent;
+    width: 150px;
+    padding: 15px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.4s ease;
+    font-family: sans-serif;
+    font-weight: 600;
+   
+}
+
+.button button:hover {
+    background-color: #fff;
+    color: rgb(39, 39, 39);
+}
+
+i {
+    font-size: 20px;
+}
+
+.hero p {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.container {
+background-color: #fff; 
+    padding: 15px;
+}
+
+.words {
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.about {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.about h1 {
+    font-size: 3.75rem;
+    text-align: center;
+    font-family: 'Luxurious Script';
+   margin-bottom: 35px; 
+   font-weight: 100;
+}
+
+.about p {
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 25px;
+    color: #000;
+    line-height: 2;
+}
+
+hr {
+    border: 1px solid #393939;
+   
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.best {
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 500;
+    padding: 15px;
+    color: #000;
+    font-family: 'Luxurious Script';
+    
+    cursor: pointer;
+}
+
+.signature {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px;
+}
+
+.signature2 {
+   
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 55px;
+   
+}
+
+.signature3 {
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 55px;
+   
+}
+
+.signature3 .info {
+    margin-left: 250px;
+    
+}
+
+
+.signature .info {
+    margin-left: 250px;
+    color: #000;
+}
+
+.info {
+    
+    font-style: italic;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: #fff;
+    line-height: 2;
+    
+}
+
+.meat, .rice, .cocktail {
+    font-family: 'Luxurious Script';
+    font-size: 4.8rem;
+}
+
+.image {
+    width: 400px;
+    height: 470px;
+    overflow: hidden;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.7);
+    
+}
+
+.image img {
+    width: 100%;
+    transition: all 0.9s ease;
+}
+
+.image img:hover {
+    width: 110%;
+}
+
+#sellers {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    
+    margin-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: linear-gradient(to right bottom, #fff 50%, rgb(0, 0, 27) 50.1%);
+    color: #fff;
+}
+
+.hours {
+  padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.time1 {
+    padding-left: 250px;
+}
+
+.time1 p {
+    font-style: oblique;
+    cursor: pointer;
+}
+
+.time {
+    color: #9b9a9a;
+}
+
+.hours h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 500;
+    padding: 15px;
+    color: #000;
+    font-family: 'Luxurious Script';
+    cursor: pointer;
+        
+}
+
+.heading {
+    text-align: center;
+}
+
+.hours p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #000;
+    font-weight: 600;
+}
+
+
+
+.food img {
+    border-radius: 7px;
+}
+
+.food1 {
+    padding: 50px;
+}
+
+.food1 .paragraph {
+   font-size: 1.5rem;
+   padding: 12px;
+}
+
+.form {
+    padding: 100px;
+    padding-top: 50px;
+
+color: #000;
+border-radius: 12px;
+
+}
+
+.button2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.form input {
+    width: 300px;
+    height: 40px;
+    margin: 12px;
+    padding: 7px;
+    margin-bottom: 25px;
+    font-size: 1rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px solid #484848;
+    background-color: transparent;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+
+.form input:hover {
+    width: 320px;
+}
+
+.form button {
+    width: 250px;
+    padding: 15px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+   border: 2px solid #fff;
+    transition: all 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #fff;
+    color: rgb(39, 39, 39);
+} 
+
+
+.reservation {
+   text-align: center;
+margin-top: 55px;
+font-style: italic;
+background-color: rgb(0, 0, 35);
+padding: 100px;
+border-radius: 7px;
+}
+
+.reservation h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.reservation p {
+    font-size: 1.5rem;
+    margin: 25px;
+    color: #fff;
+}
+
+.review1 {
+    padding: 150px;
+}
+
+.reviews {
+    margin-top: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.review1 > h1 {
+    text-align: center;
+    font-family: 'Luxurious Script';
+    font-size: 3.5rem;
+    font-weight: 100;
+}
+
+.item1, .item2, .item3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    padding-bottom: 120px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 350px;
+    border-radius: 4px;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.review-image {
+    
+    width: 100px;
+    height: 100px;
+    background-color: #5f5d5d;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    padding: 50px;
+}
+
+
+
+.review-image:last-of-type(3) {
+    background-color: hotpink;
+}
+
+footer {
+    background-color: #575757;
+    color: #c0bdbd;
+    text-align: center;
+    padding: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (max-width: 1180px){
+
+body {
+    margin: 0;
+}
+    
+.container {
+    padding: 20px;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.navbar a {
+    padding: 7px;
+    font-size: 10px;
+}
+
+.words {
+    font-size: 2rem;
+}
+
+.le {
+    font-size: 2.75rem;
+}
+
+.about p {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    
+}
+
+.para {
+    margin-top: 170px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.button a {
+    font-size: 1em;
+}
+
+.hours p {
+    font-size: 1.2em;
+}
+
+.signature, .signature2, .signature3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  gap: 25px;
+}
+
+.signature .info, .signature2 .info, .signature3 .info {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.7;
+}
+
+.signature .info, .signature3 .info {
+    margin-right: 50px;
+}
+
+.rice {
+    line-height: normal;
+}
+
+.image {
+    width: 300px;
+    height: 380px;
+    overflow: 0;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.time1 {
+    padding-left: 10px;
+}
+
+.reservation {
+    display: block;
+}
+
+.reservation h1 {
+   
+    font-size: 1.5em;
+}
+
+.reservation p {
+    font-size: 1em;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form input {
+    width: 250px;
+    font-size: 1em;
+}
+
+.form button {
+    font-size: 0.75em;
+    width: 170px;
+}
+    
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .signature .image, .signature2 .image, .signature3 .image {
+        width: 630px;
+        height: 500px;
+    }
+
+    .signature .image img, .signature2 .image img, .signature3 .image img{
+        width: 100%;
+        height: 100%;
+      }
+}
+
+
+@media screen and (max-width: 680px) {
+
+    
+
+.signature2 .info, .signature3 .info {
+    color: #000;
+}
+
+    #sellers {
+        background: 0;
+    }
+
+    .rice, .meat, .cocktail {
+        font-family: 'Luxurious Script';
+    }
+    
+    .signature .image, .signature2 .image, .signature3 .image {
+        width: 530px;
+        height: 300px;
+    }
+
+   .signature .image img, .signature2 .image img, .signature3 .image img{
+      width: 100%;
+      height: 100%;
+    }
+
+    .form {
+        padding: 100px;
+    }
+
+    .review1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .review1 > h1 {
+        font-size: 3rem;
+    }
+
+    .reviews {
+        flex-direction: column;
+    }
+.item1, .item2, .item3 {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+    padding: 70px;
+    font-size: 1rem;
+}
+
+}
+
+
+@media screen and (max-width: 650px){
+   
+.navbar > a:nth-child(1), .navbar > a:nth-child(2) {
+    display: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.button button {
+    font-size: 0.8rem;
+}
+
+    .about p {
+        font-size: 1rem;
+    }
+
+#sellers {
+    font-size: 1rem;
+}
+
+.meat, .rice, .cocktail {
+    font-size: 3.5rem;
+}
+
+.signature {
+    padding: 30px;
+    margin-bottom: 50px;
+    flex-direction: column-reverse;
+
+}
+
+    .signature .image {
+        width: 200px;
+                height: 300px;
+                border-radius: 7px;
+    }
+
+   .signature .image img {
+      width: 100%;
+     height: 100%;
+    }
+
+    .signature2 {
+        padding: 30px;
+        margin-bottom: 50px;
+        flex-direction: column;
+
+    }
+    
+        .signature2 .image {
+            width: 200px;
+            height: 300px;
+                border-radius: 7px;
+        }
+    
+       .signature2 .image img {
+        width: 100%;
+        height: 100%;
+          
+        }
+
+        .signature3 {
+            padding: 30px;
+            flex-direction: column-reverse;
+
+        }
+        
+            .signature3 .image {
+                width: 200px;
+                height: 300px;
+                border-radius: 7px;
+            }
+        
+           .signature3 .image img {
+            width: 100%;
+            height: 100%;
+            }
+       .reservation {
+        padding-top: 60px;
+        padding-right: 25px;
+        padding-left: 25px;
+       }
+}
+
