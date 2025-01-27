@@ -49,11 +49,11 @@
     text-decoration: none;
     color: #fff;
     border: 2px solid #fff;
-    padding: 7px;
+    padding: 15px;
     padding-right: 10px;
     padding-left: 10px;
     transition: all 0.4s ease;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .navbar a:hover {
@@ -171,40 +171,57 @@ hr {
     cursor: pointer;
 }
 
+.signature-dishes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .signature {
     margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 55px;
+    justify-content: center;
+    padding: 30px;
+    gap: 100px;
 }
 
 .signature2 {
-   
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 55px;
-   
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 100px;
 }
 
 .signature3 {
-    
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 55px;
-   
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 100px;
+}
+
+.signature, .signature2, .signature3 {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.signature2 .info {
+    color: #000;
 }
 
 .signature3 .info {
-    margin-left: 250px;
-    
+    margin-left: 125px;
+    color: #000;
 }
 
 
 .signature .info {
-    margin-left: 250px;
+   margin-left: 125px;
     color: #000;
 }
 
@@ -574,12 +591,9 @@ body {
 .signature2 .info, .signature3 .info {
     color: #000;
 }
-    .signature3 .info {
-        margin-top: 25px;
-    }
 
     #sellers {
-        background: 0;
+        background: linear-gradient(to right bottom, #fff 50%, rgb(0, 0, 27) 50.1%);
     }
 
     .rice, .meat, .cocktail {
