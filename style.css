@@ -43,17 +43,18 @@
 .navbar {
     display: flex;
     gap: 24px
+    
 }
 
 .navbar a {
     text-decoration: none;
     color: #fff;
     border: 2px solid #fff;
-    padding: 15px;
+    padding: 5px;
     padding-right: 10px;
     padding-left: 10px;
     transition: all 0.4s ease;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .navbar a:hover {
@@ -433,14 +434,16 @@ border-radius: 7px;
 .review-image {
     
     width: 100px;
-    height: 100px;
-    background-color: #5f5d5d;
+    height: 100px; 
     border-radius: 50%;
     margin-bottom: 25px;
+    overflow: hidden;
     padding: 50px;
 }
 
-
+.review-image img {
+    width: 100%;
+}
 
 .review-image:last-of-type(3) {
     background-color: hotpink;
